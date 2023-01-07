@@ -1,3 +1,9 @@
+/*
+A program for calculating lucas sequence
+then computes f(x)/f(x-1)
+Which in most cases will be equal to the golden ratio (about ~1.618)
+Cmd line args consist of [number to go to, first number, second number]
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
