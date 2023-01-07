@@ -1,10 +1,15 @@
-import random
-colors = ("Red", "Green", "Blue", "Yellow", "White", "Orange")
-print("How many rotations?")
-rotations = int(input())
+# used in place of randomness
+# the assignment was to take a rubiks cube, mix it up, then to the opposite of what you just did to solve it
+# relatively simple program
 
+import random
+
+colors = ("Red", "Green", "Blue", "Yellow", "White", "Orange")
 turns = []
 invTurns = []
+
+print("How many rotations?")
+rotations = int(input())
 
 for i in range(rotations):
     rand = (int) (random.random() * 6)
