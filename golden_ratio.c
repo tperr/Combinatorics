@@ -1,3 +1,9 @@
+/*
+A program for showing the golden ratio using the fibinacci sequence
+Basically fib(x)/fib(x-1) will converge to roughly ~1.618
+Takes either cmd line args or user input if none accepted
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
